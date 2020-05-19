@@ -6,7 +6,6 @@ D:\Git\BatimentoPonto\BatimentoPonto\bin\Debug\DocumentFormat.OpenXml.dll
 D:\Git\BatimentoPonto\BatimentoPonto\bin\Debug\System.IO.Packaging.dll
 D:\Git\BatimentoPonto\BatimentoPonto\bin\Debug\DocumentFormat.OpenXml.xml
 D:\Git\BatimentoPonto\BatimentoPonto\bin\Debug\System.IO.Packaging.xml
-D:\Git\BatimentoPonto\BatimentoPonto\obj\Debug\BatimentoPontoHomeOffice.csprojAssemblyReference.cache
 D:\Git\BatimentoPonto\BatimentoPonto\obj\Debug\BatimentoPontoHomeOffice.FormMotivoHorario.resources
 D:\Git\BatimentoPonto\BatimentoPonto\obj\Debug\BatimentoPontoHomeOffice.FormPrincipal.resources
 D:\Git\BatimentoPonto\BatimentoPonto\obj\Debug\BatimentoPontoHomeOffice.FormSobreescritaContinuacao.resources

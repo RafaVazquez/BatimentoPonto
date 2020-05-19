@@ -58,11 +58,11 @@
             // 
             this.btSim.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(154)))), ((int)(((byte)(0)))));
             this.btSim.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btSim.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btSim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSim.ForeColor = System.Drawing.Color.White;
             this.btSim.Location = new System.Drawing.Point(76, 130);
             this.btSim.Name = "btSim";
-            this.btSim.Size = new System.Drawing.Size(126, 34);
+            this.btSim.Size = new System.Drawing.Size(137, 41);
             this.btSim.TabIndex = 2;
             this.btSim.Text = "Sim";
             this.btSim.UseVisualStyleBackColor = false;
@@ -72,11 +72,11 @@
             // 
             this.btNao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(154)))), ((int)(((byte)(0)))));
             this.btNao.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btNao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btNao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btNao.ForeColor = System.Drawing.Color.White;
-            this.btNao.Location = new System.Drawing.Point(270, 130);
+            this.btNao.Location = new System.Drawing.Point(259, 130);
             this.btNao.Name = "btNao";
-            this.btNao.Size = new System.Drawing.Size(126, 34);
+            this.btNao.Size = new System.Drawing.Size(137, 41);
             this.btNao.TabIndex = 3;
             this.btNao.Text = "Não";
             this.btNao.UseVisualStyleBackColor = false;

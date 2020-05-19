@@ -63,11 +63,11 @@
             // 
             this.btFinalizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(154)))), ((int)(((byte)(0)))));
             this.btFinalizar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btFinalizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btFinalizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btFinalizar.ForeColor = System.Drawing.Color.White;
-            this.btFinalizar.Location = new System.Drawing.Point(188, 156);
+            this.btFinalizar.Location = new System.Drawing.Point(174, 147);
             this.btFinalizar.Name = "btFinalizar";
-            this.btFinalizar.Size = new System.Drawing.Size(115, 32);
+            this.btFinalizar.Size = new System.Drawing.Size(137, 41);
             this.btFinalizar.TabIndex = 3;
             this.btFinalizar.Text = "Finalizar";
             this.btFinalizar.UseVisualStyleBackColor = false;

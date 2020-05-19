@@ -71,7 +71,7 @@
             // 
             this.btSobreescrever.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(154)))), ((int)(((byte)(0)))));
             this.btSobreescrever.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btSobreescrever.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btSobreescrever.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSobreescrever.ForeColor = System.Drawing.Color.White;
             this.btSobreescrever.Location = new System.Drawing.Point(58, 159);
             this.btSobreescrever.Name = "btSobreescrever";
@@ -85,7 +85,7 @@
             // 
             this.btNao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(154)))), ((int)(((byte)(0)))));
             this.btNao.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btNao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btNao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btNao.ForeColor = System.Drawing.Color.White;
             this.btNao.Location = new System.Drawing.Point(459, 159);
             this.btNao.Name = "btNao";
@@ -99,7 +99,7 @@
             // 
             this.btContinuar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(154)))), ((int)(((byte)(0)))));
             this.btContinuar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btContinuar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btContinuar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btContinuar.ForeColor = System.Drawing.Color.White;
             this.btContinuar.Location = new System.Drawing.Point(258, 159);
             this.btContinuar.Name = "btContinuar";
