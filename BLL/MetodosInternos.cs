@@ -134,6 +134,7 @@ namespace BatimentoPontoHomeOffice.BLL
                                 if(InicioAlmoco.InnerText == string.Empty)
                                 {
                                     //Apresenta mensagem de continuacao
+                                    botaoApresentar = "btInicioAlmoco";
                                     modoPopup = true;
                                 }
                                 else
@@ -166,13 +167,8 @@ namespace BatimentoPontoHomeOffice.BLL
                             formSobreescritaContinuacao.ShowDialog();
                             var retornoPopUp = formSobreescritaContinuacao.RetornoPopUp();
 
-                            if ((TipoServico)retornoPopUp == TipoServico.Reescrita)
-                            {   //Reescrita será realizada
-                                linhaPreenchimentoDia = i.ToString();
-                                break;
-                            }
-                            else if ((TipoServico)retornoPopUp == TipoServico.Continuacao)
-                            {   //Continuação será realizada
+                            if ((TipoServico)retornoPopUp == TipoServico.Reescrita || (TipoServico)retornoPopUp == TipoServico.Continuacao)
+                            {   //Reescrita ou continuacao será realizada
                                 linhaPreenchimentoDia = i.ToString();
                                 break;
                             }
