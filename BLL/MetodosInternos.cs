@@ -312,7 +312,7 @@ namespace BatimentoPontoHomeOffice.BLL
                 var expedienteTotal = diferencaHorarioSemAlmoco.Subtract(Convert.ToDateTime(horarioFimAlmoco).Subtract(Convert.ToDateTime(horarioInicioAlmoco)));
 
                 //Verifica se o expediente total é menor que 8 horas
-                if(expedienteTotal.Hours < 8)
+                if (expedienteTotal.Hours < 8)
                 {
                     FormVerificacaoHorario formVerificacaoHorario = new FormVerificacaoHorario("Não foram completadas as 08 horas de trabalho, \r\ndeseja realmente finalizar o expediente ? ");
                     formVerificacaoHorario.ShowDialog();
@@ -354,6 +354,24 @@ namespace BatimentoPontoHomeOffice.BLL
                     else
                         //Não deseja finalizar o expediente no momento
                         finalizaExpediente = false;
+                }
+                else if (expedienteTotal > TimeSpan.Parse("08:30:00"))
+                {   //Expediente considerado hora extra no banco de dados
+                    //Total do banco de horas a ser registrado
+                    var totalHorasBanco = (expedienteTotal - TimeSpan.Parse("08:30:00")).ToString(@"hh\:mm\:ss");
+
+                    //Insere o texto na tabela de textos
+                    itemInserido = tabelaDeTexto.AppendChild(new SharedStringItem(new Text("Sim")));
+                    //Altera celula para receber texto
+                    celFinalizouExpediente.DataType = new EnumValue<CellValues>(CellValues.SharedString);
+                    //Altera texto encontrado para ter a situação do expediente
+                    celFinalizouExpediente.CellValue = new CellValue(itemInserido.ElementsBefore().Count().ToString());
+
+                    //Insere total de horas extras
+                    itemInserido = tabelaDeTexto.AppendChild(new SharedStringItem(new Text(string.Concat("Total hora extra: ", Convert.ToString(totalHorasBanco)))));
+                    celMotivo.DataType = new EnumValue<CellValues>(CellValues.SharedString);
+                    //Altera texto encontrado para ter a situação do expediente
+                    celMotivo.CellValue = new CellValue(itemInserido.ElementsBefore().Count().ToString());
                 }
                 else
                 {   //Expediente completo
